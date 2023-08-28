@@ -1,0 +1,345 @@
+@import url('https://fonts.googleapis.com/css2?family=Belleza&family=Ropa+Sans:ital@0;1&family=Sedgwick+Ave+Display&family=Spicy+Rice&display=swap');
+
+
+
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+/* */
+}
+body{
+	width: 100%;
+}
+html{
+	font-size: 16px;
+}
+/*--------------------------------*/
+
+.main-bg{
+	background-image: url(../images/bg1.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	width: 100%;
+	
+}
+.main-bg .navbar .container .navbar-toggler-icon i{
+	color: #fff;
+	
+}
+.main-bg .navbar .container .navbar-nav   {
+	justify-content: space-between;
+	margin-left: auto;
+	
+
+}
+.main-bg .navbar{
+	background: #000000;
+}
+
+
+.navbar .navbar-nav .nav-item{
+  font-size: 1rem;
+  color: #fff;
+  padding: 20px;
+  font-weight: 500;
+
+
+
+}
+.navbar .navbar-nav .nav-item .nav-link{
+	font-size: 1rem;
+	color: rgba(255, 255, 255, 1);
+	
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+	color: green;
+}
+
+/*----------------------------bnr-----------------*/
+.main-bg .icn #dot{
+	position: absolute;
+	top: 30rem;
+
+
+}
+.main-bg .icn {
+	margin-top: 4rem;
+
+
+}
+
+.main-bg  .bnr-sec{
+	margin-top: 9rem;
+}
+.main-bg  .bnr-sec .clml{
+	margin-top: 4rem;
+}
+.main-bg  .bnr-sec .clml #hd{
+	margin-left: -3rem;
+}
+.main-bg  .bnr-sec .clml p{
+	font-size: 1rem;
+	color: #fff;
+	line-height: 2rem;
+	margin-bottom: 2.8rem;
+	font-family: 'Belleza', sans-serif;
+}
+.main-bg  .bnr-sec .clml #btn2{
+	margin-left: 1rem;
+}
+.main-bg  .bnr-sec  #snk{
+	filter: drop-shadow(8px 6px 50px #8EA826);
+}
+
+/*-----------------------colm-sec------------*/
+.main-bg .colm-sec{
+	width: 100%;
+	background-color: #2FEA3C;
+	padding: 30px;
+	margin-top: 2rem;
+
+}
+/*------------abts sec-------------------*/
+.grdnt-bg .abt-sec{
+
+
+}
+.grdnt-bg .abt-sec .container .clmr{
+	margin-top: 7rem;
+}
+.grdnt-bg .abt-sec .container .clml{
+	margin-top: 7rem;
+}
+
+.grdnt-bg .abt-sec .container .clmr p{
+	font-size: 1rem;
+	line-height:2.4vw;
+	color: #fff;
+	font-family: 'Belleza', sans-serif;
+
+}
+
+/*--------------------*/
+ .grdnt-bg{
+	 background-image: linear-gradient(to bottom right, #05170B 40%, #92FB55);
+
+}
+.grdnt-bg .container .box-sec{
+	background-color: #000;
+	padding:4.5rem;
+  border: .1rem solid #55E5C1;
+	border-color: #55E5C1;
+}
+.grdnt-bg .container .box-sec .box2{
+	margin-top: 6rem;
+}
+.grdnt-bg .box-main{
+	margin-top: 13rem;
+
+}
+.grdnt-bg .box-main .clml1 p{
+		font-size: .8rem;
+	line-height:2vw;
+	color: #fff;
+	font-family: 'Belleza', sans-serif;
+	opacity: 50%;
+	margin-top: 1rem;
+
+
+}
+.grdnt-bg .box-main .clml1 span{
+	text-decoration: underline;
+	color: #fff;
+	font-size: 1rem;
+	word-spacing: .2rem;
+}
+.grdnt-bg .box-main .clml1 #text{
+	margin-left: -1.4rem;
+}
+.grdnt-bg .box-main .clmr1{
+	margin-top: 1rem;
+}
+
+/*------------sct 2---------*/
+
+
+.grdnt-bg .box-main .clmr2 p{
+		font-size: .8rem;
+	line-height:2vw;
+	color: #fff;
+	font-family: 'Belleza', sans-serif;
+	opacity: 50%;
+	margin-top: 1rem;
+
+
+}
+.grdnt-bg .box-main .clmr2 span{
+	text-decoration: underline;
+	color: #fff;
+	font-size: 1rem;
+	word-spacing: .2rem;
+}
+.grdnt-bg .box-main .clmr2 #text{
+	margin-left: -1.4rem;
+}
+
+.grdnt-bg .box-main .clml2{
+	margin-top: 1.7rem;
+}
+/*--------------------------tkn-sec-------------------------*/
+.grdnt-bg .container .tkn-sec{
+	margin-top: 13rem;
+}
+.grdnt-bg .container .tkn-sec  .hd p{
+	font-size: 1rem;
+	line-height:2vw;
+	color: #fff;
+	font-family: 'Belleza', sans-serif;
+}
+ .grdnt-bg .container .tkn-sec .crcl img{
+ 	padding-left: 2.7rem;
+ 	padding-bottom: 15rem;
+
+ }
+ /*---------------------ftr-box------------------------*/
+ .ftr-sec {
+ 	background-image: url(../images/bg1.png);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	height: 55rem;
+ 	width: 100%;
+
+ }
+ .ftr-sec .container .ftr-box{
+ 	background-image: url(../images/ftr.png);
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	height: 21rem;
+
+
+ } 
+  .ftr-sec .container .ftr-box .clml #snnk{
+  	width: 20rem;
+  }
+
+ .ftr-sec .container .ftr-box .clml{
+ 	margin-top: 25px;
+ }
+ .ftr-sec .container .ftr-box .clmr{
+ 	margin-top: 2rem;
+ }
+ .ftr-sec .container .ftr-box .clmr p{
+ 	font-size: 1rem;
+	line-height:2vw;
+	color: #fff;
+	font-family: 'Belleza', sans-serif;
+	margin-bottom: 2rem;
+
+ }
+ .ftr-sec .container .ftr-box .clmr #snkh{
+ 	margin-left: -1.4rem;
+ }
+ .ftr-sec .container .ftr-box .clmr #btn2{
+ 	margin-left: 1rem;
+ }
+ .ftr-sec .container .copy{
+ 	margin-top: 4rem;
+ 	text-align: center;
+ }
+ .ftr-sec .container .copy p{
+ 	font-size: 1rem;
+	line-height:2vw;
+	color: #fff;
+	font-family: 'Belleza', sans-serif;
+
+
+ }
+ .ftr-sec .container .ftr-cnt{
+ 	margin-top: 8rem;
+ }
+ .ftr-sec .container .ftr-cnt .clm1 p{
+ 	font-size: 1rem;
+	line-height:2rem;
+	color: #fff;
+	font-family: 'Belleza', sans-serif;
+	margin-top: 2rem;
+
+
+ }
+ .ftr-sec .container .ftr-cnt .clm2 h4{
+ 	font-size: 2.7rem;
+	line-height:2rem;
+	color: #fff;
+	font-family: 'Belleza', sans-serif;
+
+
+
+ }
+
+ .ftr-sec .container .ftr-cnt .clm2 ul li a{
+ 	color: #fff;
+ 	list-style: none;
+ 	font-size: 1rem;
+
+
+ }
+ .ftr-sec .container .ftr-cnt .clm2 ul li a:hover{
+ 	color: green;
+
+ }
+ .ftr-sec .container .ftr-cnt .clm2 ul li{
+ 	padding-top: .8rem;
+ 	list-style: none;
+ 	
+ }
+ 	.ftr-sec .container .ftr-cnt .clm2 ul{
+ 		margin-top: 1.5rem; 
+ 	}
+
+
+ 	.ftr-sec .container .ftr-cnt .clm3 h4{
+ 	font-size: 2.7rem;
+	line-height:2rem;
+	color: #fff;
+	font-family: 'Belleza', sans-serif;
+
+
+
+ }
+  
+ .ftr-sec .container .ftr-cnt .clm3 ul li a{
+ 	color: #fff;
+ 	list-style: none;
+ 	font-size: 1rem;
+
+ }
+ .ftr-sec .container .ftr-cnt .clm3 ul li a:hover{
+ 	color: green;
+ }
+ .ftr-sec .container .ftr-cnt .clm3 ul li{
+ 	padding-top: .8rem;
+ 	list-style: none;
+ 	
+ }
+ 	.ftr-sec .container .ftr-cnt .clm3 ul{
+ 		margin-top: 1.5rem; 
+ 	}
+
+
+
+ 	.ftr-sec .container .ftr-cnt .clm4 h4{
+ 			font-size: 2.7rem;
+	   line-height:2rem;
+	color: #fff;
+	font-family: 'Belleza', sans-serif;
+
+
+
+ 	}
+ 	 	.ftr-sec .container .ftr-cnt .clm4 img{
+ 	 		margin-top: 3rem;
+ 	 	}
+
+ 	}
